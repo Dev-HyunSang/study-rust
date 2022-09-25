@@ -22,6 +22,31 @@ $ rustup update
 $ rustup self uninstall
 ```
 
+## Types
+- **Primitive Type(데이터 타입):**
+  - Boolean - `bool`
+  - Numeric - integer and float
+  - Textual - `char` and `str`
+  - Never - `!` - a type with no values
+- **Sequence types:**
+  - Tuple
+  - Array
+  - Slice
+- **User-defined types:**
+  - Struct
+  - Enum
+  - Union
+- **Function types:**
+  - Functions
+  - Closures
+- **Pointer types:**
+  - References
+  - Raw pointers
+  - Function pointers
+- **Trait types:**
+  - Trait objects
+  - Impl trait
+
 ## ToDo
 - [X] [시작하기](https://rinthel.github.io/rust-lang-book-ko/ch01-00-getting-started.html)
     - [X] [설치하기](https://rinthel.github.io/rust-lang-book-ko/ch01-01-installation.html)
