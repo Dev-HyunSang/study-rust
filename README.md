@@ -1,6 +1,5 @@
 # Study Rust
-
-[The Rust Programming Language](https://rinthel.github.io/rust-lang-book-ko/foreword.html)를 통해서 Rust를 공부하고 있습니다.
+["프로그래밍 언어 러스트를 배웁시다!"](https://youtu.be/W9DO6m8JSSs)를 통해서 Rust를 공부하고 있습니다.
 
 ## Getted Starting
 ### Installation
@@ -48,7 +47,6 @@ $ rustup self uninstall
   - Impl trait
 
 ## ToDo
-- [X] [시작하기](https://rinthel.github.io/rust-lang-book-ko/ch01-00-getting-started.html)
-    - [X] [설치하기](https://rinthel.github.io/rust-lang-book-ko/ch01-01-installation.html)
-    - [X] [Hello, World!](https://rinthel.github.io/rust-lang-book-ko/ch01-02-hello-world.html)
-    - [X] [Hello, Cargo!](https://rinthel.github.io/rust-lang-book-ko/ch01-03-hello-cargo.html)
+- [X] [프로그래밍 언어 러스트를 배웁시다! 001 Easy Rust in Korean: Intro](https://youtu.be/W9DO6m8JSSs)
+- [X] [프로그래밍 언어 러스트를 배웁시다! 002 Easy Rust in Korean: Comments](https://youtu.be/x7GlQjh2aSw)
+- [X] [프로그래밍 언어 러스트를 배웁시다! 003 Easy Rust in Korean: Integers](https://youtu.be/dEMYR99YIao)
