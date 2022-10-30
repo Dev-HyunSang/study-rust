@@ -1,5 +1,5 @@
 # Study Rust
-공식 문서인 [https://doc.rust-lang.org/book/title-page.html](https://doc.rust-lang.org/book/title-page.html)를 참고하며 공부하고 있습니다.
+공식 문서인 [The Rust Programming Language](https://doc.rust-lang.org/book/title-page.html)를 참고하며 공부하고 있습니다.
 
 ## Getted Starting
 ### Installation
