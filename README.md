@@ -1,5 +1,5 @@
 # Study Rust
-["프로그래밍 언어 러스트를 배웁시다!"](https://youtu.be/W9DO6m8JSSs)를 통해서 Rust를 공부하고 있습니다.
+공식 문서인 [https://doc.rust-lang.org/book/title-page.html](https://doc.rust-lang.org/book/title-page.html)를 참고하며 공부하고 있습니다.
 
 ## Getted Starting
 ### Installation
@@ -47,6 +47,9 @@ $ rustup self uninstall
   - Impl trait
 
 ## ToDo
-- [X] [프로그래밍 언어 러스트를 배웁시다! 001 Easy Rust in Korean: Intro](https://youtu.be/W9DO6m8JSSs)
-- [X] [프로그래밍 언어 러스트를 배웁시다! 002 Easy Rust in Korean: Comments](https://youtu.be/x7GlQjh2aSw)
-- [X] [프로그래밍 언어 러스트를 배웁시다! 003 Easy Rust in Korean: Integers](https://youtu.be/dEMYR99YIao)
+- [1.Getting Started](https://doc.rust-lang.org/book/ch01-00-getting-started.html)
+  - [X] [Installation](https://doc.rust-lang.org/book/ch01-01-installation.html)
+  - [X] [Hello, World!](https://doc.rust-lang.org/book/ch01-02-hello-world.html)
+  - [X] [Hello, Cargo!](https://doc.rust-lang.org/book/ch01-03-hello-cargo.html)
+- [X] [Programming a Guessing Game](https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html#programming-a-guessing-game)
+- 
