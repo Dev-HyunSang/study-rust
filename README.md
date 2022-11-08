@@ -81,5 +81,4 @@ let y = {
 println!("The value of y is: {}", y);
 ```
 
-**해결 방법:** `println!("The value of y is: {}", y);`으로 출력하고자 했지만 `println!("The value of y is: {:#?}", y);`으로 출력하면 됩니다.
-- [Cannot be formatted with the default formatter](https://users.rust-lang.org/t/cannot-be-formatted-with-the-default-formatter/57043)
+**해결 방법:** `println!("The value of y is: {}", y);`으로 출력하고자 했지만 `println!("The value of y is: {:#?}", y);`으로 출력하면 됩니다. [Cannot be formatted with the default formatter](https://users.rust-lang.org/t/cannot-be-formatted-with-the-default-formatter/57043)를 참고하였습니다.
