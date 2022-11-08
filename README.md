@@ -55,8 +55,8 @@ $ rustup self uninstall
 - [X] [3.보편적인 프로그래밍 개념](https://rinthel.github.io/rust-lang-book-ko/ch03-00-common-programming-concepts.html) - 2022.11.08 완료
   - [X] [3.1.변수와 가변성](https://rinthel.github.io/rust-lang-book-ko/ch03-01-variables-and-mutability.html) - 2022.11.08 완료
   - [X] [3.2.데이터 타입들](https://rinthel.github.io/rust-lang-book-ko/ch03-02-data-types.html) - 2022.11.08 완료
-  - [ ] [3.3.함수 동작 원리](https://rinthel.github.io/rust-lang-book-ko/ch03-03-how-functions-work.html)
-  - [ ] [3.4.주석]()
+  - [X] [3.3.함수 동작 원리](https://rinthel.github.io/rust-lang-book-ko/ch03-03-how-functions-work.html) - 2022.11.08 완료
+  - [X] [3.4.주석](https://rinthel.github.io/rust-lang-book-ko/ch03-04-comments.html) - 2022.11.08 완료
   - [ ] [3.5.제어문]()
 
 ## Error Solution
