@@ -51,5 +51,35 @@ $ rustup self uninstall
   - [X] [설치하기](https://rinthel.github.io/rust-lang-book-ko/ch01-01-installation.html)
   - [X] [Hello, World!](https://rinthel.github.io/rust-lang-book-ko/ch01-02-hello-world.html)
   - [X] [Hello, Cargo!](https://rinthel.github.io/rust-lang-book-ko/ch01-03-hello-cargo.html)
-- [X] [추리 게임 튜토리얼](https://rinthel.github.io/rust-lang-book-ko/ch02-00-guessing-game-tutorial.html)
-- [ ] [2. 보편적인 프로그래밍 개념](https://rinthel.github.io/rust-lang-book-ko/ch03-00-common-programming-concepts.html)
+- [X] [2.추리 게임 튜토리얼](https://rinthel.github.io/rust-lang-book-ko/ch02-00-guessing-game-tutorial.html)
+- [X] [3.보편적인 프로그래밍 개념](https://rinthel.github.io/rust-lang-book-ko/ch03-00-common-programming-concepts.html) - 2022.11.08 완료
+  - [X] [3.1.변수와 가변성](https://rinthel.github.io/rust-lang-book-ko/ch03-01-variables-and-mutability.html) - 2022.11.08 완료
+  - [X] [3.2.데이터 타입들](https://rinthel.github.io/rust-lang-book-ko/ch03-02-data-types.html) - 2022.11.08 완료
+  - [ ] [3.3.함수 동작 원리](https://rinthel.github.io/rust-lang-book-ko/ch03-03-how-functions-work.html)
+  - [ ] [3.4.주석]()
+  - [ ] [3.5.제어문]()
+
+## Error Solution
+### `()` doesn't implement `std::fmt::Display`
+```shell
+error[E0277]: `()` doesn't implement `std::fmt::Display`
+  --> src/main.rs:45:39
+   |
+45 |     println!("The value of y is: {}", y);
+   |                                       ^ `()` cannot be formatted with the default formatter
+   |
+   = help: the trait `std::fmt::Display` is not implemented for `()`
+   = note: in format strings you may be able to use `{:?}` (or {:#?} for pretty-print) instead
+   = note: this error originates in the macro `$crate::format_args_nl` which comes from the expansion of the macro `println` (in Nightly builds, run with -Z macro-backtrace for more info)
+```
+```rs
+let x = 5;
+let y = {
+  let x = 3;
+  x + 1;
+};
+println!("The value of y is: {}", y);
+```
+
+**해결 방법:** `println!("The value of y is: {}", y);`으로 출력하고자 했지만 `println!("The value of y is: {:#?}", y);`으로 출력하면 됩니다.
+- [Cannot be formatted with the default formatter](https://users.rust-lang.org/t/cannot-be-formatted-with-the-default-formatter/57043)
