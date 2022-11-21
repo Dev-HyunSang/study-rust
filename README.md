@@ -57,7 +57,7 @@ $ rustup self uninstall
   - [X] [3.2.데이터 타입들](https://rinthel.github.io/rust-lang-book-ko/ch03-02-data-types.html) - 2022.11.08 완료
   - [X] [3.3.함수 동작 원리](https://rinthel.github.io/rust-lang-book-ko/ch03-03-how-functions-work.html) - 2022.11.08 완료
   - [X] [3.4.주석](https://rinthel.github.io/rust-lang-book-ko/ch03-04-comments.html) - 2022.11.08 완료
-  - [ ] [3.5.제어문]()
+  - [X] [3.5.제어문](https://rinthel.github.io/rust-lang-book-ko/ch03-05-control-flow.html) - 2022.11.21 완료
 
 ## Error Solution
 ### `()` doesn't implement `std::fmt::Display`
